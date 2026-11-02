@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="utf-8"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Công ty X · Phân tích quy trình</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<aside><div class="brand">X<span>PROCESS LAB</span></div><p class="eyebrow">ĐỒ ÁN BPMN</p><h1>Từ nhật ký<br>đến cải tiến</h1><nav aria-label="Các phần phân tích">
+<button data-tab="overview" class="active">01 <span>Tổng quan</span></button><button data-tab="time">02 <span>Định mức & thực tế</span></button><button data-tab="logs">03 <span>Nhật ký từng ca</span></button><button data-tab="network">04 <span>Mạng bàn giao</span></button><button data-tab="process">05 <span>Luồng thực hiện</span></button><button data-tab="scenario">06 <span>Thử phương án cải tiến</span></button></nav></aside>
+<main><header><div><p class="eyebrow" id="section-label">DỮ LIỆU THỰC TẾ / CÔNG TY X</p><h2 id="page-title">Hiểu quy trình qua bằng chứng</h2></div><div class="source">A12 · Bản cập nhật <span id="fingerprint"></span></div></header>
+<div id="loading" role="status">Đang đọc dữ liệu…</div><div id="content" hidden>
+<section class="filters" aria-label="Bộ lọc"><label>Mã theo dõi<select id="case-filter"><option value="">Tất cả 8 mã</option></select></label><label>Tìm hoạt động<input id="activity-filter" placeholder="Ví dụ: chà nhám, sơn, QC6"></label><label class="check"><input type="checkbox" id="exclude-long">Ẩn CASE01 & CASE07 để xem độ nhạy</label><button id="reset" class="subtle">Đặt lại</button><span id="filter-count"></span></section>
+<div id="view"></div>
+<div class="method-note"><strong>Đọc đúng số liệu.</strong> Thời lượng ghi nhận = lúc quét ra − lúc quét vào, có thể gồm chờ tại trạm và qua ca. Khoảng giữa hai lần quét chưa phải thời gian xếp hàng thuần. Mẫu 8 mã được chọn có chủ đích. Các kịch bản là hướng xử lý đề xuất, chưa phải hiệu quả triển khai.</div>
+</div></main><script src="app.js"></script></body></html>
